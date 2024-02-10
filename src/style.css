@@ -1,0 +1,183 @@
+@import url("https://fonts.googleapis.com/css2?family=Hind:wght@300;500&display=swap");
+
+body {
+  font-family: "Hind", sans-serif;
+  margin: 0.5px;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+:root {
+  --primary-color: #916bbf;
+  --light-blue: #d1d1d1;
+  --grey: #d1d5db;
+  --dark-grey: #191919;
+}
+
+.text-center {
+  text-align: center;
+}
+
+hr {
+  padding: 2px;
+}
+
+/* containers */
+
+.container {
+  padding: 1.5rem;
+}
+
+.container-center {
+  margin: auto;
+  max-width: 600px;
+}
+
+/* links */
+
+.link {
+  text-decoration: none;
+  padding: 0.4rem 0.4rem;
+  transition: 0.5s;
+}
+
+.link:hover {
+  color: var(--dark-grey);
+}
+
+.link-primary {
+  background-color: var(--primary-color);
+  border-radius: 0.5rem;
+  color: white;
+  font-weight: bold;
+}
+
+.link-secondary {
+  background-color: var(--light-blue);
+  border-radius: 0.5rem;
+  color: white;
+  font-weight: bold;
+  border: 1px solid white;
+}
+
+/* lists */
+
+.list-non-bullet {
+  list-style: none;
+}
+
+.list-item-inline {
+  display: inline;
+  padding: 0.5rem, 1rem;
+}
+
+/* navigation */
+
+.navigation {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 1rem;
+  border-radius: 0.2rem;
+  border-bottom-right-radius: 1rem;
+}
+
+.navigation .link {
+  color: white;
+}
+
+.navigation .nav-pills {
+  text-align: right;
+}
+
+.navigation .nav-brand {
+  font-weight: bold;
+  font-size: large;
+}
+
+.navigation .link-active {
+  font-weight: bold;
+}
+
+/* header */
+
+.hero {
+  padding: 2rem;
+}
+
+.hero .hero-img {
+  max-width: 250px;
+  display: block;
+  margin: auto;
+}
+
+.hero .hero-heading {
+  font-size: x-large;
+  color: var(--primary-color);
+  text-align: center;
+}
+
+/* section */
+
+.section {
+  padding: 2rem;
+}
+
+.section h1 {
+  text-align: center;
+}
+
+.blue {
+  background-color: var(--light-blue);
+  border-radius: 0.2rem;
+  color: var(--dark-grey);
+}
+
+.ow {
+  background-color: white;
+  border-radius: 0.2rem;
+  color: var(--dark-grey);
+}
+
+/* footer */
+
+.footer {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 2rem 1rem;
+  border-bottom-right-radius: 1rem;
+  text-align: center;
+}
+
+.footer .link {
+  color: white;
+}
+
+.footer .ul {
+  padding-inline-start: 0;
+}
+
+ul {
+  padding-inline-start: 0px;
+}
+
+.fab:hover {
+  color: var(--dark-grey);
+}
+
+.mrg {
+  margin: 0.5rem;
+}
+
+.img-pr {
+  max-inline-size: 100%;
+  block-size: auto;
+  object-fit: cover;
+  max-height: 200px;
+  display: block;
+  margin: auto;
+}
+
+.icon-lg {
+  font-size: x-large;
+  font-weight: bold;
+}
