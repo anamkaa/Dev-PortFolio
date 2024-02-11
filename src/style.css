@@ -38,6 +38,7 @@ hr {
 .link {
   text-decoration: none;
   padding: 0.4rem 0.4rem;
+  margin-left: 0.2rem;
   transition: 0.5s;
 }
 
