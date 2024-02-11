@@ -1,37 +1,16 @@
 import "./App.css";
-import hero from "./hero.svg";
-import {
-  GithubLogo,
-  LinkedinLogo,
-  TwitterLogo,
-  FileHtml,
-  FileCss,
-  FileJs,
-} from "@phosphor-icons/react";
+import hero from "./images/hero.svg";
+import Projects from "./pages/projects";
+import Basicprojects from "./pages/basicprojects";
+import Blogs from "./pages/blogs";
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <nav class="navigation container">
-          <ul class="list-non-bullet nav-pills">
-            <li class="list-item-inline">
-              <a class="link link-active" href="/">
-                Home
-              </a>
-            </li>
-            <li class="list-item-inline">
-              <a class="link" href="/projects.html">
-                Projects
-              </a>
-            </li>
-            <li class="list-item-inline">
-              <a class="link" href="/blogs.html">
-                Blogs
-              </a>
-            </li>
-          </ul>
-        </nav>
+
+        <Navbar/>
 
         <header class="hero">
           <img class="hero-img image-round" src={hero} alt="image" />
@@ -50,33 +29,10 @@ function App() {
           </div>
         </header>
 
-        <br />
-
-        <footer class="footer">
-          <div class="footer-header">Social Links</div>
-          <ul class="social-links list-non-bullet">
-            <li class="list-item-inline">
-              <a
-                class="link"
-                href="https://www.linkedin.com/in/anamkaa/"
-                target="/"
-              >
-                <LinkedinLogo size={32} weight="fill" />
-              </a>
-            </li>
-            <li class="list-item-inline">
-              <a class="link" href="https://github.com/anamkaa" target="/">
-                <GithubLogo size={32} weight="fill" />
-              </a>
-            </li>
-            <li class="list-item-inline">
-              <a class="link" href="https://twitter.com/anamkaa_" target="/">
-                <TwitterLogo size={32} weight="fill" />
-              </a>
-            </li>
-          </ul>
-        </footer>
-      </header>
+        <Footer/>
+      <Projects/>
+      <Basicprojects/>
+      <Blogs/>
     </div>
   );
 }
