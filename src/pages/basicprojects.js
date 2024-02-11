@@ -5,8 +5,7 @@ import Footer from "../components/Footer";
 const Basicprojects = () => {
   return (
     <>
-
-      <Navbar/>
+      <Navbar />
 
       <div class="container container-center ">
         <section class="section blue">
@@ -250,7 +249,7 @@ const Basicprojects = () => {
         </section>
       </div>
 
-      <Footer/>
+      <Footer />
 
       {/* <footer class="footer">
         <div class="footer-header">Social Links</div>

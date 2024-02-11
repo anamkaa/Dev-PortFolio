@@ -5,7 +5,7 @@ import Footer from "../components/Footer";
 const Blogs = () => {
   return (
     <>
-      <Navbar/>
+      <Navbar />
 
       <div class="container container-center ">
         <section class="section blue">
@@ -52,32 +52,7 @@ const Blogs = () => {
         </section>
       </div>
 
-      <Footer/>
-
-      {/* <footer class="footer">
-        <div class="footer-header">Social Links</div>
-        <ul class="social-links list-non-bullet">
-          <li class="list-item-inline">
-            <a
-              class="link"
-              href="https://www.linkedin.com/in/anamkaa/"
-              target="/"
-            >
-              <LinkedinLogo size={32} weight="fill" />
-            </a>
-          </li>
-          <li class="list-item-inline">
-            <a class="link" href="https://github.com/anamkaa" target="/">
-              <GithubLogo size={32} weight="fill" />
-            </a>
-          </li>
-          <li class="list-item-inline">
-            <a class="link" href="https://twitter.com/anamkaa_" target="/">
-              <TwitterLogo size={32} weight="fill" />
-            </a>
-          </li>
-        </ul>
-      </footer> */}
+      <Footer />
     </>
   );
 };
