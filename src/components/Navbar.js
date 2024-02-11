@@ -1,29 +1,30 @@
 import "../../src/App.css";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
-    return (
-        <>
-           <nav class="navigation container">
-          <ul class="list-non-bullet nav-pills">
-            <li class="list-item-inline">
-              <a class="link link-active" href="/">
-                Home
-              </a>
-            </li>
-            <li class="list-item-inline">
-              <a class="link" href="./projects">
-                Projects
-              </a>
-            </li>
-            <li class="list-item-inline">
-              <a class="link" href="/blogs.html">
-                Blogs
-              </a>
-            </li>
-          </ul>
-        </nav>
-        </>
-    )
-}
+  return (
+    <>
+      <nav className="navigation container">
+        <ul className="list-non-bullet nav-pills">
+          <li className="list-item-inline">
+            <Link to="/" className="link link-active">
+              Home
+            </Link>
+          </li>
+          <li className="list-item-inline">
+            <Link to="/projects" className="link link-active">
+              Projects
+            </Link>
+          </li>
+          <li className="list-item-inline">
+            <Link to="/blogs" className="link link-active">
+              Blogs
+            </Link>
+          </li>
+        </ul>
+      </nav>
+    </>
+  );
+};
 
 export default Navbar;
